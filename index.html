@@ -5,16 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W1-To do list</title>
+    <title>Week1-To Do List</title>
 </head>
 
 <body>
-    <h1>To do list</h1>
-    <div>111</div>
-    333
-    <br />
-    <!--分行,但不建立區塊-->
-    222
+    <!--HTML DOM-->
+    <h1>To Do List</h1>
+    <div class="container">
+        <div id="task">
+            <h3>New Task</h3>
+            <input id="task-text" type="text" placeholder="please enter task">
+            <button id="update">Add</button>
+        </div>
+        <div>
+            <h3>Task List</h3>
+            <div id="tasklist"></div>
+        </div>
+    </div>
+    <!--JS DOM-->
+    <script src="./index.js"></script>
 </body>
 
 </html>
